@@ -24,3 +24,10 @@ a {
     margin: 0 auto;
 }
 
+/* style button */
+.btn {
+    padding: 1 rem 1.5rem;
+    background: white;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
