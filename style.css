@@ -31,3 +31,25 @@ a {
     border: 1.5px solid black;
     cursor: pointer;
 }
+
+/* style pre-title */
+.pre-title {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: gray;
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.pre-title::before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
