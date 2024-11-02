@@ -158,3 +158,73 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+/* 15. style skills and education */
+#skills {
+    padding: 6rem  0;
+    background: white;
+}
+
+.section-title-skills {
+    text-align: center;
+    margin: 1rem 0 4rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.education {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.education line {
+    padding: 1rem;
+}
+
+.education .line div {
+    width: 2px;
+    height: 100%;
+    background: black;
+    position: relative;
+}
+
+.education-info {
+    margin: 0.3rem 0;
+}
+
+.education-date {
+    margin-bottom: rem;
+}
+
+.education .line div::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+}
+
+.skills-list p {
+    margin-bottom: 1rem;
+}
+
+.skills-list ul {
+    margin-bottom: 2rem;
+}
+.skills-right {
+    line-height: 2rem;
+    padding: 0 1rem;
+}
