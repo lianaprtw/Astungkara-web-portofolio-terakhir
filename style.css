@@ -26,7 +26,7 @@ a {
 
 /* style button */
 .btn {
-    padding: 1 rem 1.5rem;
+    padding: 1rem 1.5rem;
     background: white;
     border: 1.5px solid black;
     cursor: pointer;
@@ -84,4 +84,32 @@ nav ul li a {
     color: black;
 }
 
+/* style home section */
+#home {
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
 
+.home-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0.5rem 1rem;
+    color: black;
+}
+
+.home-right img {
+    width: 400px;
+    border-radius: 0.5rem;
+}
+
+.home-right {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
