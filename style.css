@@ -53,3 +53,35 @@ a {
     left: 0;
     top: 50%;
 }
+
+/* style logo dan navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    transition: 0.2s ease-in-out;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.logo a {
+    color: black;
+}
+
+nav ul li a {
+    color: black;
+}
+
+
