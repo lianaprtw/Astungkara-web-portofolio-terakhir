@@ -1,4 +1,6 @@
 /* 6. style css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
 
 * {
     margin: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -27,8 +29,9 @@ a {
 /* style button */
 .btn {
     padding: 1rem 1.5rem;
-    background: white;
-    border: 1.5px solid black;
+    background: #000068;
+    color: white;
+    border: 1.5px solid #000068;
     cursor: pointer;
 }
 
@@ -36,7 +39,7 @@ a {
 .pre-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    color: gray;
+    color: black;
     position: relative;
     padding-left: 40px;
     width: fit-content;
@@ -77,11 +80,11 @@ a {
 }
 
 .logo a {
-    color: black;
+    color: #000068;
 }
 
 nav ul li a {
-    color: black;
+    color: #000068;
 }
 
 /* 11. style home section */
@@ -89,6 +92,19 @@ nav ul li a {
     height: 720px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+}
+
+.home-left {
+    text-align: left;
+}
+
+.home-right {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -99,9 +115,14 @@ nav ul li a {
     color: black;
 }
 
+.home-name span {
+    color: #1c1c84;
+}
 .home-right img {
-    width: 400px;
-    border-radius: 0.5rem;
+    width: 650px;
+    height: 650px;
+    padding-bottom: 10rem ;
+    padding-left: 13rem;
 }
 
 .home-right {
@@ -116,13 +137,15 @@ section {
 
 /* 13. style about section*/
 #about {
-    background-color: rgb(209, 207, 207);
+    background-color: #000068;
     padding: 6rem 0;
 }
 
 .section-title-about {
     text-align: center;
     margin: 1rem 0 4rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .grid-2 {
@@ -134,22 +157,21 @@ section {
 .about {
     padding: 3rem 2rem;
     text-align: center;
-    background: black;
+    background: white;
     border-radius: 0.7rem;
 }
 
 .about h4 {
-    color: white;
+    color: #000053;
     margin: 1.5rem 0;
 }
 
 .about p {
-    color: white;
+    color: #1c1c84;
 }
 
 .about-icon {
 
-    background-color: rgb(209, 207, 207);
     width: fit-content;
     margin: 0 auto;
     padding: 1rem 1.3rem;
@@ -168,6 +190,7 @@ section {
 .section-title-skills {
     text-align: center;
     margin: 1rem 0 4rem;
+    color: #000068;
 }
 
 .skills-grid {
@@ -189,23 +212,25 @@ section {
 .education .line div {
     width: 2px;
     height: 100%;
-    background: black;
+    background: #000042;
     position: relative;
 }
 
 .education-info {
     margin: 0.3rem 0;
+    color: #1c1c84;
 }
 
 .education-date {
-    margin-bottom: rem;
+    margin-bottom: 0.3rem 0;
+    color: #1c1c84;
 }
 
 .education .line div:before {
     content: "";
     width: 15px;
     height: 15px;
-    background: black;
+    background: #000042;
     border-radius: 50%;
     position: absolute;
     left: -6px;
@@ -215,10 +240,12 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 1.5rem;
+    color: #1c1c84;
 }
 
 .skills-list p {
     margin-bottom: 1rem;
+    color: #1c1c84;
 }
 
 .skills-list ul {
@@ -227,18 +254,25 @@ section {
 .skills-right {
     line-height: 2rem;
     padding: 0 1rem;
+    color: #1c1c84;
 }
 
 /* 17. style contact section */
 #contact {
     padding: 6rem 0;
-    background-color: rgb(209, 207, 207);;
+    background-color: #000068;
 }
 
 .contact {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
+}
+
+.contact-header {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: white;
 }
 
 .contact-form div {
@@ -269,8 +303,9 @@ section {
 .btn-submit {
     width: 100%;
     padding: 0.75rem 1.3rem;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #000068;
+    font-weight: bold;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -298,8 +333,13 @@ section {
     align-items: center;
 }
 
-.contact-item-detail h4{
+.contact-item-detail h4 {
     margin-bottom: 0.6rem;
+    color: white;
+}
+
+.contact-item-detail p {
+    color: white;
 }
 
 /* 22. style footer */
@@ -308,6 +348,7 @@ footer {
     padding: 4rem;
     background: white;
     text-align: center;
+    color: #000068;
 }
 
 .footer-icons {
