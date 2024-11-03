@@ -366,3 +366,9 @@ footer {
 .footer-icons {
     fill: gainsboro;
 }
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 90%;
+    }
+}
