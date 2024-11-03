@@ -201,7 +201,7 @@ section {
     margin-bottom: rem;
 }
 
-.education .line div::before {
+.education .line div:before {
     content: "";
     width: 15px;
     height: 15px;
