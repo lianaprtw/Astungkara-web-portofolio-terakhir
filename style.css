@@ -301,3 +301,27 @@ section {
 .contact-item-detail h4{
     margin-bottom: 0.6rem;
 }
+
+/* 22. style footer */
+footer {
+    margin-bottom: 0;
+    padding: 4rem;
+    background: white;
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin: 0 0.5rem;
+}
+
+.footer-icons a:hover {
+    fill: black;
+}
+
+.footer-icons {
+    fill: gainsboro;
+}
